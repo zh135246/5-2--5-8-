@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>圆角边框</title>
+<style>
+div{
+	border-style:double;
+	border-width:20px;
+	border-size:20px;
+	border-color:#cF0#cF0#9F0#9F0;
+	padding-bottom:20px;
+	height:50px;
+	width:50px;
+	margin-bottom:20px;
+}
+.two{
+	border-radius:50%;
+}
+.three{
+	border-top-left-radius:25%;
+	border-top-right-radius:25%;
+	border-bottom-left-radius:50%;
+	border-bottom-right-radius:50%;
+}
+.four{
+	border-top-left-radius:50%;
+	border-top-right-radius:1%;
+	border-bottom-left-radius:50%;
+	border-bottom-right-radius:50%;
+}
+.five{
+	border-top-left-radius:65%;
+	border-top-right-radius:45%;
+	border-bottom-left-radius:99%;
+	border-bottom-right-radius:1%;
+}
+.six{
+	border-top-left-radius:45%;
+	border-top-right-radius:1%;
+	border-bottom-left-radius:1%;
+	border-bottom-right-radius:100%;
+}
+</style>
+</head>
+
+<body>
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<div class="four"></div>
+<div class="five"></div>
+<div class="six"></div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+package ÊÖ»úÀà;
+
+public class PhoneDemo {
+public static void main(String[] args) {
+	Phone stu=new Phone();
+	stu.read();
+}
+}
